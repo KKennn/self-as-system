@@ -1,0 +1,131 @@
+body {
+    background: black;
+    margin: 16px 16%;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    background: white;
+    color: black;
+    width: 100%;
+    padding: 24px;
+}
+
+h2 {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+#description-box-1,
+#description-box-2,
+#description-box-3,
+#description-box-4,
+#description-box-5 {
+    width: 100%;
+    border: white solid 2px;
+    background: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 16px;
+    margin-top: 24px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+wrong {
+    color: red;
+}
+
+maybe {
+    color: yellow;
+}
+
+true {
+    color: green;
+}
+
+wrong:nth-of-type(2n) {
+    font-size: 32px;
+}
+
+maybe:nth-of-type(2n) {
+    font-size: 32px;
+}
+
+true:nth-of-type(2n) {
+    font-size: 32px;
+}
+
+.emoji {
+    font-size: 24px;
+}
+
+.letter-bar {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+.letter-a {
+    background: #006BA6;
+    flex: 1131;
+}
+
+.letter-e {
+    background: #0496FF;
+    flex: 967;
+}
+
+.letter-i {
+    background: #FFBC42;
+    flex: 893;
+}
+
+.letter-o {
+    background: #D81159;
+    flex: 621;
+}
+
+.letter-u {
+    background: #8F2D56;
+    flex: 369;
+}
+
+.portrait {
+    width: 30%;
+    padding-left: 35%;
+}
+
+.bubbles {
+    width: 70%;
+    padding-left: 15%;
+}
+
+.reflection,
+.description {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 16px;
+}
+
+footer {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 16px;
+    text-align: center;
+    border-top: white solid 1px;
+}
